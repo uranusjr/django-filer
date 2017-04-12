@@ -30,7 +30,7 @@ setup(
         'easy-thumbnails>=1.0,<2.4',
         'django-mptt>=0.6,<0.9',  # the exact version depends on Django
         'django_polymorphic>=0.7,<1.1',
-        'Unidecode>=0.04,<0.05',
+        'text-unidecode>=1.0',
     ),
     include_package_data=True,
     zip_safe=False,
@@ -52,6 +52,5 @@ setup(
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
     ],
 )

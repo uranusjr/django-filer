@@ -14,7 +14,7 @@ from django.http.multipartparser import (
 from django.template.defaultfilters import slugify as slugify_django
 from django.utils.encoding import force_text
 from django.utils.text import get_valid_filename as get_valid_filename_django
-from unidecode import unidecode
+from text_unidecode import unidecode
 
 
 class UploadException(Exception):
